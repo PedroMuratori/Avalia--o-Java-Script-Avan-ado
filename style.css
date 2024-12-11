@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
+    transition: 1s;
+}
+
+.cabecalho{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 90px;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-titulo{
+    font-family: Jaini;
+    font-size: 50px;
+    margin-left: 12px;
+}
+
+.especificacoes{
+    display: flex;
+    margin-left: 200px;
+    gap: 55px;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}
+
+span{
+    color: orangered;
+    font-size: 42px;
+}
+
+body{
+    background-image: url(Imagens/restaurante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#centro{
+    font-family: Jaini;
+    font-size: 85px;
+}
+
+#tamanho{
+    font-size: 85px;
+}
+
+button{
+    margin-top: 15px;
+    width: 130px;
+    height: 45px;
+    border: solid 1px black;
+    border-radius: 40px;
+    color: white;
+    background-color: orangered;
+}
+
+button:hover{
+    scale: 1.1;
+    transition: 1s;
+}
